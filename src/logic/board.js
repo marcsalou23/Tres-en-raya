@@ -11,7 +11,6 @@ export const checkWinnerFrom = (boardToCheck) => {
             return boardToCheck[a];
         }
     }
-    // si no hay ganador
     return null;
 };
 
